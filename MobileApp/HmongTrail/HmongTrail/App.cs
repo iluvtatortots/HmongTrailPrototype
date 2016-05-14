@@ -1,4 +1,7 @@
-﻿using HmongTrail.Pages;
+﻿using FreshMvvm;
+using HmongTrail.Models;
+using HmongTrail.PageModels;
+using HmongTrail.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +16,10 @@ namespace HmongTrail
         public App()
         {
             // The root page of your application
-            MainPage = new TitlePage();
+            var page = FreshPageModelResolver.ResolvePageModel<TitlePageModel>();
+            var basicNavContainer = new FreshNavigationContainer(page);
+            MainPage = basicNavContainer;
+            //MainPage = page;
         }
 
         protected override void OnStart()

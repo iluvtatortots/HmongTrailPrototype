@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace HmongTrail.Pages
 {
-    public partial class TitlePage : ContentPage
+    public partial class PlayerSetupPage : ContentPage
     {
-        public TitlePage()
+        public PlayerSetupPage()
         {
             InitializeComponent();
 
