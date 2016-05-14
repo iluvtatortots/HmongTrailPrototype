@@ -10,3 +10,6 @@
 /MobileApp/HmongTrail/HmongTrail.iOS/obj/iPhone/Debug
 /MobileApp/HmongTrail/HmongTrail.Droid/obj/Debug
 /MobileApp/.vs/MobileApp/v14
+/MobileApp/HmongTrail/HmongTrail/bin/Debug
+/MobileApp/HmongTrail/HmongTrail.Droid/bin/Debug
+*.user
