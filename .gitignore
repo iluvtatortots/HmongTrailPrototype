@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MobileApp/HmongTrail/HmongTrail/obj/Debug
+/MobileApp/packages
+/MobileApp/HmongTrail/HmongTrail.WinPhone/obj/Debug
+/MobileApp/HmongTrail/HmongTrail.Windows/obj/Debug
+/MobileApp/HmongTrail/HmongTrail.UWP/obj/x86/Debug
+/MobileApp/HmongTrail/HmongTrail.iOS/obj/iPhone/Debug
+/MobileApp/HmongTrail/HmongTrail.Droid/obj/Debug
+/MobileApp/.vs/MobileApp/v14
