@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HmongTrail.Pages.CreditsPage">
+  <StackLayout
+    Padding="5">
+    <BoxView HeightRequest="10" WidthRequest="2000" Color="Pink" HorizontalOptions="CenterAndExpand" />
+    <Label Text="Credits!" HorizontalOptions="Center" />
+    <Label Text="Lead Developer: Katy Shmizu" HorizontalOptions="Start" />
+    <Label Text="Developer: Kristen Riehle"  HorizontalOptions="Start" />
+    <Label Text="Developer: Aimee Soltys"  HorizontalOptions="Start" />
+    <Label Text="Illustrations: Jayna Sinn"  HorizontalOptions="Start" />
+    <Label Text="Illustrations: Jessica Dungca"  HorizontalOptions="Start" />
+    <BoxView HeightRequest="10" WidthRequest="2000" Color="Pink" HorizontalOptions="CenterAndExpand" />
+  </StackLayout>
+</ContentPage>

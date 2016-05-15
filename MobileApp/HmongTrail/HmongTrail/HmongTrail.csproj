@@ -39,6 +39,9 @@
     <Compile Include="Enums.cs" />
     <Compile Include="PageModels\LearnAboutTheTrailPageModel.cs" />
     <Compile Include="PageModels\NamePartyPageModel.cs" />
+    <Compile Include="Pages\CreditsPage.xaml.cs">
+      <DependentUpon>CreditsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\EndBad.xaml.cs">
       <DependentUpon>EndBad.xaml</DependentUpon>
     </Compile>
@@ -134,6 +137,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\CreditsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\NamePartyPage.xaml">
