@@ -14,7 +14,7 @@ namespace HmongTrail.PageModels
     {
         public string StartGameText { get { return "Travel the Trail"; } }
         public string BackstoryText { get { return "Learn About the Trail"; } }
-        public string CreditsText { get { return "Credits from ViewModel"; } }
+        public string CreditsText { get { return "Credits"; } }
 
         public Command StartGameCommand
         {
