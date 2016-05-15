@@ -44,6 +44,7 @@
     <Compile Include="PageModels\LearnAboutTheTrailPageModel.cs" />
     <Compile Include="PageModels\LivestockPageModel.cs" />
     <Compile Include="PageModels\NamePartyPageModel.cs" />
+    <Compile Include="PageModels\SomeoneDiedOfMalariaPageModel.cs" />
     <Compile Include="PageModels\VillagePageModel.cs" />
     <Compile Include="Pages\CreditsPage.xaml.cs">
       <DependentUpon>CreditsPage.xaml</DependentUpon>
@@ -78,6 +79,9 @@
     </Compile>
     <Compile Include="Pages\PlayerSetupPage.xaml.cs">
       <DependentUpon>PlayerSetupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SomeoneDiedOfMalariaPage.xaml.cs">
+      <DependentUpon>SomeoneDiedOfMalariaPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\TitlePage.xaml.cs">
       <DependentUpon>TitlePage.xaml</DependentUpon>
@@ -197,6 +201,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\LivestockPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\SomeoneDiedOfMalariaPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
