@@ -22,13 +22,9 @@
         <ColumnDefinition Width="*"/>
       </Grid.ColumnDefinitions>
 
-      <Label
+      <Image
         Grid.Row="0" Grid.Column="0"
-        Text="Choose Your Character"
-        FontSize="Large"
-        FontAttributes="Bold"
-        HorizontalOptions="Center"
-        Margin="30"/>
+        Source="soliderfarming.png"/>
       <Button
         Grid.Row="1" Grid.Column="0"
         Text="Soldier"

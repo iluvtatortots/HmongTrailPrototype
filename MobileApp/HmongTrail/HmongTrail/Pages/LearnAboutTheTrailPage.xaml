@@ -9,7 +9,9 @@
       Source="borderlong.png"
       Aspect="AspectFill"
       HorizontalOptions="Center" />
-    <Label Text="The Secret War" FontSize="Large" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+    <Image
+    Source="secretwar.png"
+    HorizontalOptions="Center"/>
     <ScrollView>
       <StackLayout>
         <Label FontSize="Medium" Text="Following World War II and after the French lost power and left Vietnam in 1954, there was a power struggle for control of Vietnam. The fight was against the Communist Soviet Union and China with the Democratic United States on the other side.
