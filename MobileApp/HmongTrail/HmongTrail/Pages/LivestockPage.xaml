@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HmongTrail.Pages.LivestockPage">
+  <StackLayout
+    Padding="5">
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center" />
+
+    <Label Text="Traveling through the jungle means you'll have to leave your livestock behind."/>
+    <Image Source="villager2.png"/>
+
+    <Button
+      Text="Continue"
+      HorizontalOptions="FillAndExpand"
+      Command="{Binding ContinueCommand}"/>
+
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center"
+      VerticalOptions="End"/>
+  </StackLayout>
+</ContentPage>
