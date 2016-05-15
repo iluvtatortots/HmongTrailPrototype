@@ -11,7 +11,7 @@ namespace HmongTrail.Models
         public Enums.CharType CharacterType { get; set; }
         public IList<Character> Party { get; set; }
 
-        private static IList<String> StockNames = new List<String> { "Ku", "Pa", "Mee", "Xai" };
+        private static IList<String> StockNames = new List<String> { "Kou", "Pa Nhia", "Mee", "Xai" };
 
         public Game()
         {

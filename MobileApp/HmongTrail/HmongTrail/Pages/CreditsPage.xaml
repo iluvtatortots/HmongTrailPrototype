@@ -9,6 +9,7 @@
       Aspect="AspectFill"
       HorizontalOptions="Center" />
     <Label Text="Credits!" HorizontalOptions="Center" />
+    <Label Text="Project Manager: Lacey Schmidt" HorizontalOptions="Start" />
     <Label Text="Lead Developer: Katy Shmizu" HorizontalOptions="Start" />
     <Label Text="Developer: Kristen Riehle"  HorizontalOptions="Start" />
     <Label Text="Developer: Aimee Soltys"  HorizontalOptions="Start" />

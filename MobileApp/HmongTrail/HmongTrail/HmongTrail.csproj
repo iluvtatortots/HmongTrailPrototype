@@ -38,16 +38,13 @@
     <Compile Include="App.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="PageModels\CreditsPageModel.cs" />
+    <Compile Include="PageModels\CurrentStatusBadPageModel.cs" />
+    <Compile Include="PageModels\CurrentStatusGoodPageModel.cs" />
     <Compile Include="PageModels\LearnAboutTheTrailPageModel.cs" />
     <Compile Include="PageModels\NamePartyPageModel.cs" />
+    <Compile Include="PageModels\VillageImagePageModel.cs" />
     <Compile Include="Pages\CreditsPage.xaml.cs">
       <DependentUpon>CreditsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\CurrentStatusBad.xaml.cs">
-      <DependentUpon>CurrentStatusBad.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\CurrentStatusGood.xaml.cs">
-      <DependentUpon>CurrentStatusGood.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\EndBad.xaml.cs">
       <DependentUpon>EndBad.xaml</DependentUpon>
@@ -70,9 +67,6 @@
     </Compile>
     <Compile Include="Pages\TitlePage.xaml.cs">
       <DependentUpon>TitlePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\VillageImage.xaml.cs">
-      <DependentUpon>VillageImage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -159,20 +153,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="Pages\CurrentStatusBad.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Pages\CurrentStatusGood.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Pages\VillageImage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.2.0.31\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.2.0.31\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
