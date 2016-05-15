@@ -59,12 +59,6 @@
     <Compile Include="Pages\CurrentStatusGoodPage.xaml.cs">
       <DependentUpon>CurrentStatusGoodPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\EndBad.xaml.cs">
-      <DependentUpon>EndBad.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\EndGood.xaml.cs">
-      <DependentUpon>EndGood.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pages\FlyingToAmericaPage.xaml.cs">
       <DependentUpon>FlyingToAmericaPage.xaml</DependentUpon>
     </Compile>
@@ -157,18 +151,6 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Pages\EndBad.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Pages\EndGood.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\LearnAboutTheTrailPage.xaml">
