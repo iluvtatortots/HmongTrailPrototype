@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HmongTrail.Pages.YouMadeItPage">
+  <StackLayout
+    Padding="5">
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center" />
+
+    <Label Text="Congratulations, you all made it to Thailand! You will stay at the refugee camps. Once your immigration application is accepted, you will be transported to your new home in America."/>
+    <Label Text="May 28, 1975"/>
+    <Image Source="mekongriver.png"/>
+
+    <Button
+      Text="The End"
+      HorizontalOptions="FillAndExpand"
+      Command="{Binding TheEndCommand}"/>
+
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center"
+      VerticalOptions="End"/>
+  </StackLayout>
+</ContentPage>

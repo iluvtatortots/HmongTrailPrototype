@@ -40,12 +40,16 @@
     <Compile Include="PageModels\CreditsPageModel.cs" />
     <Compile Include="PageModels\CurrentStatusBadPageModel.cs" />
     <Compile Include="PageModels\CurrentStatusGoodPageModel.cs" />
+    <Compile Include="PageModels\FlyingToAmericaPageModel.cs" />
     <Compile Include="PageModels\GeneralStorePageModel.cs" />
     <Compile Include="PageModels\LearnAboutTheTrailPageModel.cs" />
     <Compile Include="PageModels\LivestockPageModel.cs" />
+    <Compile Include="PageModels\MekongRiverPageModel.cs" />
     <Compile Include="PageModels\NamePartyPageModel.cs" />
     <Compile Include="PageModels\SomeoneDiedOfMalariaPageModel.cs" />
     <Compile Include="PageModels\VillagePageModel.cs" />
+    <Compile Include="PageModels\YouDiedPageModel.cs" />
+    <Compile Include="PageModels\YouMadeItPageModel.cs" />
     <Compile Include="Pages\CreditsPage.xaml.cs">
       <DependentUpon>CreditsPage.xaml</DependentUpon>
     </Compile>
@@ -61,6 +65,9 @@
     <Compile Include="Pages\EndGood.xaml.cs">
       <DependentUpon>EndGood.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\FlyingToAmericaPage.xaml.cs">
+      <DependentUpon>FlyingToAmericaPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\GeneralStorePage.xaml.cs">
       <DependentUpon>GeneralStorePage.xaml</DependentUpon>
     </Compile>
@@ -73,6 +80,9 @@
     <Compile Include="PageModels\TitlePageModel.cs" />
     <Compile Include="Pages\LivestockPage.xaml.cs">
       <DependentUpon>LivestockPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MekongRiverPage.xaml.cs">
+      <DependentUpon>MekongRiverPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\NamePartyPage.xaml.cs">
       <DependentUpon>NamePartyPage.xaml</DependentUpon>
@@ -88,6 +98,12 @@
     </Compile>
     <Compile Include="Pages\VillagePage.xaml.cs">
       <DependentUpon>VillagePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\YouDiedPage.xaml.cs">
+      <DependentUpon>YouDiedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\YouMadeItPage.xaml.cs">
+      <DependentUpon>YouMadeItPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -207,6 +223,30 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\SomeoneDiedOfMalariaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\MekongRiverPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\YouDiedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\YouMadeItPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\FlyingToAmericaPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

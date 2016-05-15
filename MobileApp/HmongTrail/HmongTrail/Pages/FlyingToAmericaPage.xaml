@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HmongTrail.Pages.FlyingToAmericaPage">
+  <StackLayout
+    Padding="5">
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center" />
+
+    <Label Text="May 28, 1980"/>
+    <Image Source="flighthome.png"/>
+    <Label Text="The End"/>
+
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center"
+      VerticalOptions="End"/>
+  </StackLayout>
+</ContentPage>

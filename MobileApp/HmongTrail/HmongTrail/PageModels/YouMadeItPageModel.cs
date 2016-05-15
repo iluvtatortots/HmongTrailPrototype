@@ -11,14 +11,14 @@ using Xamarin.Forms;
 namespace HmongTrail.PageModels
 {
     [ImplementPropertyChanged]
-    public class CurrentStatusBadPageModel : FreshBasePageModel
+    public class YouMadeItPageModel : FreshBasePageModel
     {
-        public Command ContinueTravelingCommand
+        public Command TheEndCommand
         {
             get
             {
                 return new Command(() => {
-                    CoreMethods.PushPageModel<MekongRiverPageModel>();
+                    CoreMethods.PushPageModel<LearnAboutTheTrailPageModel>();
                 });
             }
         }
