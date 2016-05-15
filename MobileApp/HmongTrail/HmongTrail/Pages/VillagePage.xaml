@@ -9,7 +9,7 @@
       Aspect="AspectFill"
       HorizontalOptions="Center" />
 
-    <Label Text="Prepare to leave home."/>
+    <Label Text="The Communists are moving in closer each day. You must pack only what you can carry and leave by early next morning."/>
     <Image Source="village.png"/>
 
     <Button
