@@ -40,6 +40,7 @@
     <Compile Include="PageModels\CreditsPageModel.cs" />
     <Compile Include="PageModels\CurrentStatusBadPageModel.cs" />
     <Compile Include="PageModels\CurrentStatusGoodPageModel.cs" />
+    <Compile Include="PageModels\GeneralStorePageModel.cs" />
     <Compile Include="PageModels\LearnAboutTheTrailPageModel.cs" />
     <Compile Include="PageModels\NamePartyPageModel.cs" />
     <Compile Include="PageModels\VillageImagePageModel.cs" />
@@ -51,6 +52,9 @@
     </Compile>
     <Compile Include="Pages\EndGood.xaml.cs">
       <DependentUpon>EndGood.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GeneralStorePage.xaml.cs">
+      <DependentUpon>GeneralStorePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\LearnAboutTheTrailPage.xaml.cs">
       <DependentUpon>LearnAboutTheTrailPage.xaml</DependentUpon>
@@ -150,6 +154,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\NamePartyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\GeneralStorePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

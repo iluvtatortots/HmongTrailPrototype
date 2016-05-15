@@ -71,9 +71,10 @@ namespace HmongTrail.PageModels
 
         public Command ContinueCommand {
             get {
-                return new Command(() => {
-                    CoreMethods.DisplayAlert("Continue", "Continue", "OK");
+                //return new Command(() => {
+                    //CoreMethods.DisplayAlert("Continue", "Continue", "OK");
                     //CoreMethods.PushPageModel<>(CurrentGame);
+                    return new Command(() => { CoreMethods.PushPageModel<GeneralStorePageModel>(); 
                 });
             }
         }
