@@ -12,7 +12,7 @@
     <Label Text="May 24, 1975" HorizontalOptions="End" />
     <Label Text="Weather: Very Hot" HorizontalOptions="Start" />
     <Label Text="Health: good"  HorizontalOptions="Start" />
-    <Label Text="Pace: grueling"  HorizontalOptions="Start" />
+    <Label Text="Pace: gruesome"  HorizontalOptions="Start" />
     <Label Text="Rations: filling"  HorizontalOptions="Start" />
 
     <Button

@@ -7,6 +7,7 @@
       Source="borderlong.png"
       Aspect="AspectFill"
       HorizontalOptions="Center" />
+    <Image Source="family.png"/>
     <Grid
       VerticalOptions="CenterAndExpand"
       HorizontalOptions="CenterAndExpand">
@@ -46,8 +47,12 @@
         Grid.Row="4" Grid.Column="0"
         Text="{Binding Char4Name}"
         HorizontalOptions="FillAndExpand" />
-      <Button
+      <Entry
         Grid.Row="5" Grid.Column="0"
+        Text="{Binding Char5Name}"
+        HorizontalOptions="FillAndExpand" />
+      <Button
+        Grid.Row="6" Grid.Column="0"
         Text="Continue"
         HorizontalOptions="FillAndExpand"
         Command="{Binding ContinueCommand}"/>

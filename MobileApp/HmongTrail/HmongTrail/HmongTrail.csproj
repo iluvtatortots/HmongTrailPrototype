@@ -43,7 +43,7 @@
     <Compile Include="PageModels\GeneralStorePageModel.cs" />
     <Compile Include="PageModels\LearnAboutTheTrailPageModel.cs" />
     <Compile Include="PageModels\NamePartyPageModel.cs" />
-    <Compile Include="PageModels\VillageImagePageModel.cs" />
+    <Compile Include="PageModels\VillagePageModel.cs" />
     <Compile Include="Pages\CreditsPage.xaml.cs">
       <DependentUpon>CreditsPage.xaml</DependentUpon>
     </Compile>
@@ -77,6 +77,9 @@
     </Compile>
     <Compile Include="Pages\TitlePage.xaml.cs">
       <DependentUpon>TitlePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\VillagePage.xaml.cs">
+      <DependentUpon>VillagePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -178,6 +181,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\CurrentStatusBadPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\VillagePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

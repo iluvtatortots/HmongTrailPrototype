@@ -18,6 +18,7 @@ namespace HmongTrail.PageModels
         private Character Char2 { get { return CurrentGame.Party[1]; } }
         private Character Char3 { get { return CurrentGame.Party[2]; } }
         private Character Char4 { get { return CurrentGame.Party[3]; } }
+        private Character Char5 { get { return CurrentGame.Party[4]; } }
 
         public string Char1Name {
             get { return Char1.Name; }
@@ -64,6 +65,19 @@ namespace HmongTrail.PageModels
                 if (value != Char4Name)
                 {
                     Char4.Name = value;
+                    RaisePropertyChanged();
+                }
+            }
+        }
+
+        public string Char5Name
+        {
+            get { return Char5.Name; }
+            set
+            {
+                if (value != Char5Name)
+                {
+                    Char5.Name = value;
                     RaisePropertyChanged();
                 }
             }

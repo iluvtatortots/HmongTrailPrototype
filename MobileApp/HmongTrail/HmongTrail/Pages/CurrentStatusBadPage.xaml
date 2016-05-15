@@ -9,7 +9,7 @@
       Aspect="AspectFill"
       HorizontalOptions="Center" />
     <Label Text="Arriving in Vientiane" HorizontalOptions="Center" />
-    <Label Text="May 23, 1975" HorizontalOptions="End" />
+    <Label Text="May 28, 1975" HorizontalOptions="End" />
     <Label Text="Weather: Very Hot" HorizontalOptions="Start" />
     <Label Text="Health: poor"  HorizontalOptions="Start" />
     <Label Text="Pace: slow"  HorizontalOptions="Start" />
