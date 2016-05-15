@@ -18,7 +18,7 @@ namespace HmongTrail.PageModels
             get
             {
                 return new Command(() => {
-                    CoreMethods.PushPageModel<MekongRiverPageModel>();
+                    CoreMethods.PushPageModel<YouMadeItPageModel>();
                 });
             }
         }
