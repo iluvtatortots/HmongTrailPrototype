@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HmongTrail.Pages.CurrentStatusGood">
+  <StackLayout
+    Padding="5">
+    <Image Source="borderlong.png"/>
+    <Label Text="Current Status" HorizontalOptions="Center" />
+    <Label Text="Date: May 24, 1975" HorizontalOptions="Start" />
+    <Label Text="Weather: Very Hot" HorizontalOptions="Start" />
+    <Label Text="Health: Good" HorizontalOptions="Start" />
+    <Label Text="Pace: Slow" HorizontalOptions="Start" />
+    <Label Text="Rations: Filling" HorizontalOptions="Start" />
+    <Image Source="borderlong.png"/>
+  </StackLayout>
+</ContentPage>
