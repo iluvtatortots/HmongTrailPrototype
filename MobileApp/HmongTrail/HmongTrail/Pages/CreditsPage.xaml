@@ -4,13 +4,20 @@
              x:Class="HmongTrail.Pages.CreditsPage">
   <StackLayout
     Padding="5">
-    <BoxView HeightRequest="10" WidthRequest="2000" Color="Pink" HorizontalOptions="CenterAndExpand" />
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center" />
     <Label Text="Credits!" HorizontalOptions="Center" />
     <Label Text="Lead Developer: Katy Shmizu" HorizontalOptions="Start" />
     <Label Text="Developer: Kristen Riehle"  HorizontalOptions="Start" />
     <Label Text="Developer: Aimee Soltys"  HorizontalOptions="Start" />
     <Label Text="Illustrations: Jayna Sinn"  HorizontalOptions="Start" />
     <Label Text="Illustrations: Jessica Dungca"  HorizontalOptions="Start" />
-    <BoxView HeightRequest="10" WidthRequest="2000" Color="Pink" HorizontalOptions="CenterAndExpand" />
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center"
+      VerticalOptions="End"/>
   </StackLayout>
 </ContentPage>

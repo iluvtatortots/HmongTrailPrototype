@@ -3,11 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HmongTrail.Pages.NamePartyPage">
   <StackLayout>
-    <BoxView
-      Grid.Row="0"
-      HeightRequest="20"
-      WidthRequest="2000"
-      Color="Pink"
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
       HorizontalOptions="Center" />
     <Grid
       VerticalOptions="CenterAndExpand"
@@ -54,11 +52,10 @@
         HorizontalOptions="FillAndExpand"
         Command="{Binding ContinueCommand}"/>
     </Grid>
-    <BoxView
-      Grid.Row="0"
-      HeightRequest="20"
-      WidthRequest="2000"
-      Color="Pink"
-      HorizontalOptions="Center" />
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center"
+      VerticalOptions="End"/>
   </StackLayout>
 </ContentPage>

@@ -31,6 +31,14 @@ namespace HmongTrail.PageModels
             }
         }
 
+        public Command ShowCreditsCommand
+        {
+            get
+            {
+                return new Command(() => { CoreMethods.PushPageModel<CreditsPageModel>(); });
+            }
+        }
+
         public void StartGame()
         {
             CoreMethods.PushPageModel<PlayerSetupPageModel>(new Game());
