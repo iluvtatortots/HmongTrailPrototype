@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Enums.cs" />
+    <Compile Include="PageModels\CreditsPageModel.cs" />
     <Compile Include="PageModels\LearnAboutTheTrailPageModel.cs" />
     <Compile Include="PageModels\NamePartyPageModel.cs" />
     <Compile Include="Pages\CreditsPage.xaml.cs">

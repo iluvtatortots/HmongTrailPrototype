@@ -4,11 +4,9 @@
              x:Class="HmongTrail.Pages.PlayerSetupPage"
              Padding="10">
   <StackLayout>
-    <BoxView
-      Grid.Row="0"
-      HeightRequest="20"
-      WidthRequest="2000"
-      Color="Pink"
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
       HorizontalOptions="Center" />
     <Grid
       VerticalOptions="CenterAndExpand"
@@ -41,11 +39,10 @@
         HorizontalOptions="FillAndExpand"
         Command="{Binding ChooseFarmerCommand}"/>
     </Grid>
-    <BoxView
-      HeightRequest="20"
-      WidthRequest="2000"
-      Color="Pink"
-      HorizontalOptions="CenterAndExpand"
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center"
       VerticalOptions="End"/>
   </StackLayout>
 </ContentPage>

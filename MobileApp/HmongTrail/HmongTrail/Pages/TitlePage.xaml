@@ -41,6 +41,7 @@
         Grid.Row="3" Grid.Column="0"
         Text="{Binding CreditsText}"
         HorizontalOptions="FillAndExpand"
+        Command="{Binding ShowCreditsCommand}"
         VerticalOptions="Start"/>
     </Grid>
 
