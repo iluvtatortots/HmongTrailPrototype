@@ -14,6 +14,12 @@
     <Label Text="Clothing: $40.00"  HorizontalOptions="Start" />
     <Label Text="Ammunition: $50.00"  HorizontalOptions="Start" />
     <Label Text="Total: $190.00"  HorizontalOptions="Start" />
+
+    <Button
+      Text="Begin Traveling"
+      HorizontalOptions="FillAndExpand"
+      Command="{Binding BeginTravelingCommand}"/>
+    
     <Image
       Source="borderlong.png"
       Aspect="AspectFill"

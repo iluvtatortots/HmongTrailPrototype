@@ -15,6 +15,8 @@
     <Label Text="Developer: Aimee Soltys"  HorizontalOptions="Start" />
     <Label Text="Illustrations: Jayna Sinn"  HorizontalOptions="Start" />
     <Label Text="Illustrations: Jessica Dungca"  HorizontalOptions="Start" />
+    <Label Text="Historical Reference: Joua Lo"  HorizontalOptions="Start" />
+    <Label Text="Historical Reference: Chayia Lee"  HorizontalOptions="Start" />
     <Image
       Source="borderlong.png"
       Aspect="AspectFill"

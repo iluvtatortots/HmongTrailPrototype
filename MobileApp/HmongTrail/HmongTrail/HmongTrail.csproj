@@ -47,6 +47,12 @@
     <Compile Include="Pages\CreditsPage.xaml.cs">
       <DependentUpon>CreditsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CurrentStatusBadPage.xaml.cs">
+      <DependentUpon>CurrentStatusBadPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CurrentStatusGoodPage.xaml.cs">
+      <DependentUpon>CurrentStatusGoodPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\EndBad.xaml.cs">
       <DependentUpon>EndBad.xaml</DependentUpon>
     </Compile>
@@ -160,6 +166,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\GeneralStorePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\CurrentStatusGoodPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\CurrentStatusBadPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
