@@ -2,19 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HmongTrail.Pages.TitlePage"
-             Padding="10">
+             BackgroundColor="Black">
   <StackLayout>
-    <BoxView
-      Grid.Row="0"
-      HeightRequest="20"
-      WidthRequest="2000"
-      Color="Pink"
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
       HorizontalOptions="Center" />
+    
     <Grid
       VerticalOptions="CenterAndExpand"
       HorizontalOptions="CenterAndExpand">
       <Grid.RowDefinitions>
-        <RowDefinition Height="*"/>
+        <RowDefinition Height="Auto"/>
         <RowDefinition Height="Auto"/>
         <RowDefinition Height="Auto"/>
         <RowDefinition Height="Auto"/>
@@ -23,15 +22,11 @@
       <Grid.ColumnDefinitions>
         <ColumnDefinition Width="*"/>
       </Grid.ColumnDefinitions>
-      
-      <Label
+
+      <Image
         Grid.Row="0" Grid.Column="0"
-        Text="Hmong Trail"
-        FontSize="Large"
-        FontAttributes="Bold"
-        HorizontalOptions="Center"
-        VerticalOptions="Center"
-        Margin="30"/>
+        Source="thehmongtrail.png"
+        HorizontalOptions="Center"/>
       <Button
         Grid.Row="1" Grid.Column="0"
         Text="{Binding StartGameText}"
@@ -48,11 +43,11 @@
         HorizontalOptions="FillAndExpand"
         VerticalOptions="Start"/>
     </Grid>
-    <BoxView
-      HeightRequest="20"
-      WidthRequest="2000"
-      Color="Pink"
-      HorizontalOptions="CenterAndExpand"
+
+    <Image
+      Source="borderlong.png"
+      Aspect="AspectFill"
+      HorizontalOptions="Center"
       VerticalOptions="End"/>
   </StackLayout>
 </ContentPage>
