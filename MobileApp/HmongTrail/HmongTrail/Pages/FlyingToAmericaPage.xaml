@@ -9,7 +9,7 @@
       Aspect="AspectFill"
       HorizontalOptions="Center" />
 
-    <Label Text="May 28, 1980"/>
+    <Label Text="November 19, 1980"/>
     <Image Source="flighthome.png"/>
     <Label Text="The End"/>
 
