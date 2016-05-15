@@ -40,7 +40,8 @@
       <Button
         Grid.Row="2" Grid.Column="0"
         Text="{Binding BackstoryText}"
-        HorizontalOptions="FillAndExpand" />
+        HorizontalOptions="FillAndExpand"
+        Command="{Binding ShowBackstoryCommand}"/>
       <Button
         Grid.Row="3" Grid.Column="0"
         Text="{Binding CreditsText}"

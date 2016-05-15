@@ -23,9 +23,22 @@ namespace HmongTrail.PageModels
             }
         }
 
+        public Command ShowBackstoryCommand
+        {
+            get
+            {
+                return new Command(ShowBackstory);
+            }
+        }
+
         public void StartGame()
         {
             CoreMethods.PushPageModel<PlayerSetupPageModel>(new Game());
+        }
+
+        public void ShowBackstory()
+        {
+            CoreMethods.PushPageModel<LearnAboutTheTrailPageModel>();
         }
     }
 }

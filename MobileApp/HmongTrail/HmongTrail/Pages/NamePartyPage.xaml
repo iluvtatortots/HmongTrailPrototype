@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HmongTrail.Pages.PlayerSetupPage"
-             Padding="10">
+             x:Class="HmongTrail.Pages.NamePartyPage">
   <StackLayout>
     <BoxView
       Grid.Row="0"
@@ -17,6 +16,9 @@
         <RowDefinition Height="*"/>
         <RowDefinition Height="Auto"/>
         <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
       </Grid.RowDefinitions>
 
       <Grid.ColumnDefinitions>
@@ -25,27 +27,38 @@
 
       <Label
         Grid.Row="0" Grid.Column="0"
-        Text="Choose Your Character"
+        Text="Name Your Party"
         FontSize="Large"
         FontAttributes="Bold"
         HorizontalOptions="Center"
         Margin="30"/>
-      <Button
+      <Entry
         Grid.Row="1" Grid.Column="0"
-        Text="Soldier"
-        HorizontalOptions="FillAndExpand"
-        Command="{Binding ChooseSoldierCommand}"/>
-      <Button
+        Text="{Binding Char1Name}"
+        HorizontalOptions="FillAndExpand" />
+      <Entry
         Grid.Row="2" Grid.Column="0"
-        Text="Farmer"
+        Text="{Binding Char2Name}"
+        HorizontalOptions="FillAndExpand" />
+      <Entry
+        Grid.Row="3" Grid.Column="0"
+        Text="{Binding Char3Name}"
+        HorizontalOptions="FillAndExpand" />
+      <Entry
+        Grid.Row="4" Grid.Column="0"
+        Text="{Binding Char4Name}"
+        HorizontalOptions="FillAndExpand" />
+      <Button
+        Grid.Row="5" Grid.Column="0"
+        Text="Continue"
         HorizontalOptions="FillAndExpand"
-        Command="{Binding ChooseFarmerCommand}"/>
+        Command="{Binding ContinueCommand}"/>
     </Grid>
     <BoxView
+      Grid.Row="0"
       HeightRequest="20"
       WidthRequest="2000"
       Color="Pink"
-      HorizontalOptions="CenterAndExpand"
-      VerticalOptions="End"/>
+      HorizontalOptions="Center" />
   </StackLayout>
 </ContentPage>

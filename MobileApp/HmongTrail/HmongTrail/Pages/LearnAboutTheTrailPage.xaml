@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HmongTrail.Pages.LearnAboutTheTrailPage">
+  <StackLayout
+    Padding="5">
+    <BoxView HeightRequest="10" WidthRequest="2000" Color="Pink" HorizontalOptions="CenterAndExpand" />
+    <Label Text="The Secret War" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+    <Label Text="Following Wold War II and after the French lost power and left Vietnam in 1954, there was a power struggle for control of Vietnam. The fight was against the Communist Soviet Union and China with the Democratic United States on the other side.
+Due to the terrain of Vietnam being a jungle, the US had many difficulties preventing Communist Soviet and Chinese forces from sending weapons to arm the Communist North Vietnamese against the Democratic South Vietnamese. The American Central Intelligence Agency (CIA) turned to the Hmong people for help during the Vietnam War against communist insurgents." VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+    <Label Text="The US had little success in bringing down the North Vietnamese due to guerilla warfare tactics used against the US soldiers and the Hmong losing power against their enemies. There were enemies to both sides everywhere and they were difficult to identify because they did not have uniforms and dressed like civilians." VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+    <Label Text="As the US fought the; war it was also fighting against another war at home with its people, who were protesting against the war. As time progressed and the US knew there was no hope of winning the war the US then tried to find a way out withdrawing all its troops and getting out of the war. When a ceasefire agreement between both sides was made on February 1972, the US then quickly evacuated their troops and left the Hmong allies to fight the North Vietnamese alone. (Quincy 1995) After US left, the Hmong genocide soon came afterwards for aiding the US." VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+    <BoxView HeightRequest="10" WidthRequest="2000" Color="Pink" HorizontalOptions="CenterAndExpand" />
+  </StackLayout>
+</ContentPage>
