@@ -19,7 +19,6 @@ namespace HmongTrail
             var page = FreshPageModelResolver.ResolvePageModel<TitlePageModel>();
             var basicNavContainer = new FreshNavigationContainer(page);
             MainPage = basicNavContainer;
-            //MainPage = page;
         }
 
         protected override void OnStart()

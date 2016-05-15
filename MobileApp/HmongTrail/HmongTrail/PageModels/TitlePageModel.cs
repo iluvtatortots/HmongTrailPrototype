@@ -1,5 +1,6 @@
 ﻿using FreshMvvm;
 using HmongTrail.Models;
+using PropertyChanged;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,10 @@ namespace HmongTrail.PageModels
 {
     public class TitlePageModel : FreshBasePageModel
     {
+        public string StartGameText { get { return "Travel the Trail"; } }
+        public string BackstoryText { get { return "Learn About the Trail"; } }
+        public string CreditsText { get { return "Credits from ViewModel"; } }
+
         public Command StartGameCommand
         {
             get {
