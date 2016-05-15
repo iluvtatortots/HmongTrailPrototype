@@ -13,14 +13,5 @@ namespace HmongTrail.PageModels
     [ImplementPropertyChanged]
     public class YouDiedPageModel : FreshBasePageModel
     {
-        public Command TheEndCommand
-        {
-            get
-            {
-                return new Command(() => {
-                    CoreMethods.PushPageModel<LearnAboutTheTrailPageModel>();
-                });
-            }
-        }
     }
 }

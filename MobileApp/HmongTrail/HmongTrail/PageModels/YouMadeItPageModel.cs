@@ -13,12 +13,12 @@ namespace HmongTrail.PageModels
     [ImplementPropertyChanged]
     public class YouMadeItPageModel : FreshBasePageModel
     {
-        public Command TheEndCommand
+        public Command ContinueCommand
         {
             get
             {
                 return new Command(() => {
-                    CoreMethods.PushPageModel<LearnAboutTheTrailPageModel>();
+                    CoreMethods.PushPageModel<FlyingToAmericaPageModel>();
                 });
             }
         }

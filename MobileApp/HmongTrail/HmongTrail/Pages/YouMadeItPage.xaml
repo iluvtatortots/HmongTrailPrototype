@@ -14,9 +14,9 @@
     <Image Source="mekongriver.png"/>
 
     <Button
-      Text="The End"
+      Text="Continue"
       HorizontalOptions="FillAndExpand"
-      Command="{Binding TheEndCommand}"/>
+      Command="{Binding ContinueCommand}"/>
 
     <Image
       Source="borderlong.png"

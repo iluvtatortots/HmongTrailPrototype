@@ -9,14 +9,10 @@
       Aspect="AspectFill"
       HorizontalOptions="Center" />
 
-    <Label Text="You all died."/>
+    <Label Text="You all drowned in the river."/>
     <Label Text="May 28, 1975"/>
+    <Label Text="The End"/>
     <Image Source="paperboats.png"/>
-
-    <Button
-      Text="The End"
-      HorizontalOptions="FillAndExpand"
-      Command="{Binding TheEndCommand}"/>
 
     <Image
       Source="borderlong.png"
