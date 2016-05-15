@@ -13,6 +13,8 @@ namespace HmongTrail.Pages
         public FlyingToAmericaPage()
         {
             InitializeComponent();
+            
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

@@ -1,16 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HmongTrail.Pages.SomeoneDiedOfMalariaPage">
+             x:Class="HmongTrail.Pages.SomeoneDiedOfMalariaPage"
+             BackgroundColor="Black">
   <StackLayout
     Padding="5">
     <Image
       Source="borderlong.png"
       Aspect="AspectFill"
       HorizontalOptions="Center" />
+    
+    <Label 
+      Text="May 27, 1975"/>
+    <Label 
+      Text="Pao died of malaria."
+      HorizontalOptions="Center"/>
 
-    <Label Text="Pao died of malaria."/>
-    <Label Text="May 27, 1975"/>
     <Image Source="paperboats.png"/>
 
     <Button

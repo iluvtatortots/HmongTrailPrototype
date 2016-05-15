@@ -13,6 +13,8 @@ namespace HmongTrail.Pages
         public YouDiedPage()
         {
             InitializeComponent();
+
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

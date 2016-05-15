@@ -1,18 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HmongTrail.Pages.NamePartyPage">
+             x:Class="HmongTrail.Pages.NamePartyPage"
+             BackgroundColor="Black">
   <StackLayout>
     <Image
       Source="borderlong.png"
       Aspect="AspectFill"
       HorizontalOptions="Center" />
     <Image Source="family.png"/>
+    <Label
+      Text="Name Your Party"
+      FontSize="Large"
+      FontAttributes="Bold"
+      HorizontalOptions="Center"/>
     <Grid
       VerticalOptions="CenterAndExpand"
       HorizontalOptions="CenterAndExpand">
       <Grid.RowDefinitions>
-        <RowDefinition Height="*"/>
+        <RowDefinition Height="Auto"/>
         <RowDefinition Height="Auto"/>
         <RowDefinition Height="Auto"/>
         <RowDefinition Height="Auto"/>
@@ -21,38 +27,36 @@
       </Grid.RowDefinitions>
 
       <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
       </Grid.ColumnDefinitions>
 
-      <Label
+      <Entry
         Grid.Row="0" Grid.Column="0"
-        Text="Name Your Party"
-        FontSize="Large"
-        FontAttributes="Bold"
-        HorizontalOptions="Center"
-        Margin="30"/>
+        Text="{Binding Char1Name}"
+        WidthRequest="200"
+        HorizontalOptions="FillAndExpand" />
       <Entry
         Grid.Row="1" Grid.Column="0"
-        Text="{Binding Char1Name}"
+        Text="{Binding Char2Name}"
+        WidthRequest="200"
         HorizontalOptions="FillAndExpand" />
       <Entry
         Grid.Row="2" Grid.Column="0"
-        Text="{Binding Char2Name}"
+        Text="{Binding Char3Name}"
+        WidthRequest="200"
         HorizontalOptions="FillAndExpand" />
       <Entry
         Grid.Row="3" Grid.Column="0"
-        Text="{Binding Char3Name}"
+        Text="{Binding Char4Name}"
+        WidthRequest="200"
         HorizontalOptions="FillAndExpand" />
       <Entry
         Grid.Row="4" Grid.Column="0"
-        Text="{Binding Char4Name}"
-        HorizontalOptions="FillAndExpand" />
-      <Entry
-        Grid.Row="5" Grid.Column="0"
         Text="{Binding Char5Name}"
+        WidthRequest="200"
         HorizontalOptions="FillAndExpand" />
       <Button
-        Grid.Row="6" Grid.Column="0"
+        Grid.Row="5" Grid.Column="0"
         Text="Continue"
         HorizontalOptions="FillAndExpand"
         Command="{Binding ContinueCommand}"/>

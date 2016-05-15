@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HmongTrail.Pages.FlyingToAmericaPage">
+             x:Class="HmongTrail.Pages.FlyingToAmericaPage"
+             BackgroundColor="Black">
   <StackLayout
     Padding="5">
     <Image
@@ -11,7 +12,9 @@
 
     <Label Text="November 19, 1980"/>
     <Image Source="flighthome.png"/>
-    <Label Text="The End"/>
+    <Label 
+      Text="The End"
+      HorizontalOptions="Center" />
 
     <Image
       Source="borderlong.png"

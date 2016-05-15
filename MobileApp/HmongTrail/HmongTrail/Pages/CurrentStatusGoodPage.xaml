@@ -1,14 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HmongTrail.Pages.CurrentStatusGoodPage">
+             x:Class="HmongTrail.Pages.CurrentStatusGoodPage"
+             BackgroundColor="Black">
   <StackLayout
     Padding="5">
     <Image
       Source="borderlong.png"
       Aspect="AspectFill"
       HorizontalOptions="Center" />
-    <Label Text="Leaving Long Cheng" HorizontalOptions="Center" />
+    <Label 
+      Text="Leaving Long Cheng" 
+      FontSize="Large"
+      FontAttributes="Bold"
+      HorizontalOptions="Center" />
     <Label Text="May 24, 1975" HorizontalOptions="End" />
     <Label Text="Weather: Very Hot" HorizontalOptions="Start" />
     <Label Text="Health: good"  HorizontalOptions="Start" />

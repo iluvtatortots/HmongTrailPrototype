@@ -13,6 +13,8 @@ namespace HmongTrail.Pages
         public CreditsPage()
         {
             InitializeComponent();
+
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

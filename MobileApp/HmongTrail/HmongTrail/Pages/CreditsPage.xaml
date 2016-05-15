@@ -1,22 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HmongTrail.Pages.CreditsPage">
+             x:Class="HmongTrail.Pages.CreditsPage"
+             BackgroundColor="Black">
   <StackLayout
-    Padding="5">
+    Padding="5"
+    VerticalOptions="FillAndExpand">
     <Image
       Source="borderlong.png"
       Aspect="AspectFill"
       HorizontalOptions="Center" />
-    <Label Text="Credits!" HorizontalOptions="Center" />
+    <Label Text="Credits!" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
     <Label Text="Project Manager: Lacey Schmidt" HorizontalOptions="Start" />
-    <Label Text="Lead Developer: Katy Shmizu" HorizontalOptions="Start" />
+    <Label Text="Lead Developer: Katy Shimizu" HorizontalOptions="Start" />
     <Label Text="Developer: Kristen Riehle"  HorizontalOptions="Start" />
     <Label Text="Developer: Aimee Soltys"  HorizontalOptions="Start" />
     <Label Text="Illustrations: Jayna Sinn"  HorizontalOptions="Start" />
     <Label Text="Illustrations: Jessica Dungca"  HorizontalOptions="Start" />
     <Label Text="Historical Reference: Joua Lo"  HorizontalOptions="Start" />
-    <Label Text="Historical Reference: Chayia Lee"  HorizontalOptions="Start" />
+    <Label Text="Historical Reference: Chayia Lee"  HorizontalOptions="Start" VerticalOptions="StartAndExpand"/>
     <Image
       Source="borderlong.png"
       Aspect="AspectFill"

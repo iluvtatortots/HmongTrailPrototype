@@ -1,19 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HmongTrail.Pages.MekongRiverPage">
+             x:Class="HmongTrail.Pages.MekongRiverPage"
+             BackgroundColor="Black"
+             >
   <StackLayout
     Padding="5">
     <Image
       Source="borderlong.png"
       Aspect="AspectFill"
       HorizontalOptions="Center" />
-    <Label Text="Arrived at the Mekong River" HorizontalOptions="Center" />
+
+    <Label Text="Arrived at the Mekong River"
+      FontSize="Large"
+      FontAttributes="Bold"
+      HorizontalOptions="Center" />
+    
     <Label Text="May 28, 1975" HorizontalOptions="End" />
-    <Label Text="Weather: Rainy" HorizontalOptions="Start" />
-    <Label Text="Health: Poor"  HorizontalOptions="Start" />
-    <Label Text="Pace: Slow"  HorizontalOptions="Start" />
-    <Label Text="Rations: Starving"  HorizontalOptions="Start" />
+
+    <Label Text="Weather:" FontAttributes="Bold" /> 
+    <Label Text="Rainy" />
+
+    <Label Text="Health:" FontAttributes="Bold" /> 
+    <Label Text="Poor" />
+
+    <Label Text="Pace:" FontAttributes="Bold" /> 
+    <Label Text="Slow" />
+
+    <Label Text="Rations:" FontAttributes="Bold" /> 
+    <Label Text="Starving" />
 
     <Button
       Text="Pay $20 for a boat to transport each family member across"

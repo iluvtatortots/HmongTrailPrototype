@@ -13,6 +13,8 @@ namespace HmongTrail.Pages
         public MekongRiverPage()
         {
             InitializeComponent();
+
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

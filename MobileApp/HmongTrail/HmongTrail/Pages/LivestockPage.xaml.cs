@@ -13,6 +13,8 @@ namespace HmongTrail.Pages
         public LivestockPage()
         {
             InitializeComponent();
+
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }
